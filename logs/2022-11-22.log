@@ -1,0 +1,19 @@
+time="2022-11-22 23:40:39" level=info url=/user/login
+time="2022-11-22 23:40:39" level=info fields.msg=/user/login
+time="2022-11-22 23:40:39" level=info msg="| 200 |     34.9051ms |             ::1 | POST | /user/login?username=sakura&password=zyz |"
+time="2022-11-22 23:40:54" level=info url=/user/login
+time="2022-11-22 23:40:54" level=info fields.msg=/user/login
+time="2022-11-22 23:40:54" level=info msg="| 200 |     6.930545s |             ::1 | POST | /user/login?username=sakura&password=zyz |"
+time="2022-11-22 23:41:08" level=info url=/test/
+time="2022-11-22 23:41:08" level=info msg="| 404 |         928µs |             ::1 | GET | /test/ |"
+time="2022-11-22 23:41:17" level=info url=/user/login
+time="2022-11-22 23:41:17" level=info fields.msg=/user/login
+time="2022-11-22 23:41:17" level=info msg="| 200 |      2.1511ms |             ::1 | POST | /user/login?username=sakura&password=zyz |"
+time="2022-11-22 23:42:17" level=info msg=info url=/user/login
+time="2022-11-22 23:42:17" level=info fields.msg=/user/login
+time="2022-11-22 23:42:17" level=info msg="| 200 |      5.6968ms |             ::1 | POST | /user/login?username=sakura&password=zyz |"
+time="2022-11-22 23:44:04" level=info msg=info url=/user/login
+time="2022-11-22 23:44:04" level=info fields.msg=/user/login
+time="2022-11-22 23:44:04" level=info msg="| 200 |      3.3713ms |             ::1 | POST | /user/login?username=sakura&password=zyz |"
+time="2022-11-22 23:46:51" level=info msg=info url=/user/login
+time="2022-11-22 23:46:51" level=info fields.msg=/user/login

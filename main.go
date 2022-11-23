@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Test/common"
-	"Test/router"
-	"Test/util"
+	"IMProject/common"
+	"IMProject/router"
+	"IMProject/util"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
@@ -20,6 +20,8 @@ func main() {
 		}
 	}(db)
 	r := gin.Default()
+	//r.Use(util.LoggerToFile())
+	//r.Use(common.MiddleLog)
 	r = router.CommonRouter(r)
 	r = router.UserRouter(r)
 	port := viper.GetString("server.port")

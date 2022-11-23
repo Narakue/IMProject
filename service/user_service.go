@@ -1,8 +1,8 @@
 package service
 
 import (
-	"Test/dao"
-	"Test/model"
+	"IMProject/dao"
+	"IMProject/model"
 )
 
 func Login(username string, password string) string {

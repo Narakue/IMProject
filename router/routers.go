@@ -1,12 +1,12 @@
 package router
 
 import (
-	"Test/controller"
+	"IMProject/controller"
 	"github.com/gin-gonic/gin"
 )
 
 func CommonRouter(r *gin.Engine) *gin.Engine {
-	r1 := r.Group("/test")
+	r1 := r.Group("/")
 	{
 		r1.GET("/", controller.Verify)
 	}

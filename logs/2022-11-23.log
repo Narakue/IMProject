@@ -1,0 +1,11 @@
+time="2022-11-23 10:48:12" level=info msg=info url=/user/login
+time="2022-11-23 10:48:12" level=info fields.msg=/user/login
+time="2022-11-23 10:48:24" level=info msg=info url=/user/login
+time="2022-11-23 10:48:30" level=info fields.msg=/user/login
+time="2022-11-23 10:48:38" level=info msg=info url=/user/login
+time="2022-11-23 10:48:38" level=info fields.msg=/user/login
+time="2022-11-23 10:48:42" level=info msg=info url=/user/login
+time="2022-11-23 10:48:45" level=info fields.msg=/user/login
+time="2022-11-23 10:57:49" level=info msg=info url=/user/login
+time="2022-11-23 10:59:19" level=info msg=info url=/user/login
+time="2022-11-23 11:01:04" level=info msg=info url=/user/login

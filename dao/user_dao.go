@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"Test/common"
-	"Test/model"
+	"IMProject/common"
+	"IMProject/model"
 )
 
 func Login(user model.User) bool {
